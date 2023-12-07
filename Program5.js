@@ -1,5 +1,5 @@
 
-//remove negative numbers in array
+//remove negative numbers  array using forEach Loop
 
 var arr = [1,3,-4,5,-6,7,7,-8,9,-6,54,-65];
 
