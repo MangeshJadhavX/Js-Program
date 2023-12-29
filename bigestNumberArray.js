@@ -3,16 +3,17 @@
 
 const biggestNumberArray = [11,2,3,4,3,4,55,66,7,7,88,77,443,554,656,6655];
 
-let biNum = "";
+let bigNum = biggestNumberArray[0];
 
-for(let i = 0;i<=biggestNumberArray.length;i++){
+for(let i = 0;i < biggestNumberArray.length;i++){
  
-if(biggestNumberArray[hbjbkb] < biNum){
+if(biggestNumberArray[i] > bigNum){
 
-    console.log(biNum);
+    bigNum = biggestNumberArray[i];
 
 }
 
-    
 }
+
+console.log(bigNum);
 
