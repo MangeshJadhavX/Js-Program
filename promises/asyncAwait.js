@@ -6,7 +6,7 @@ function MangeshAsyncFun() {
             
             resolve("hii this my async function");
 
-        }, 1000);
+        }, 2000);
 
 
     })
@@ -18,7 +18,9 @@ function MangeshAsyncFun() {
 async  function main() {      // this await this is clean way 
       let value = await MangeshAsyncFun();
       console.log(value);
+      console.log("inside main function");
        
 }
 
 main();
+console.log("hello bhaiLog");
