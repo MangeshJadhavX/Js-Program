@@ -20,7 +20,7 @@ const product = {
 
 // we solve this  another method 
 
-function Product(name,price,discount,itemCode){  // this a constructer function
+function Product(name,price,discount,itemCode){  // this a constructer function //todo Product is written in pascal case
     this.itemName = name,
     this.price = price,
     this.discount = discount,
