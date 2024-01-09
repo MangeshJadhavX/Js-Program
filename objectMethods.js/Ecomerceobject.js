@@ -25,14 +25,14 @@ function Product(name,price,discount,itemCode){  // this a constructer function 
     this.price = price,
     this.discount = discount,
     this.itemCode = itemCode
-    this.discountPrice = function(){
-        return price * discount / 100;
+    this.discountPrice = function(){  //   function string boolean
+        return price * discount / 100; // this is discount of 20%
     }
 }
 
 
-const mobile = new Product("onePlus9r",39999,20,"FTAR17223");
+const mobile = new Product("onePlus9r",39999,20,"FTAR17223"); // create a new  object
 console.log(mobile);
 
-console.log(mobile.discountPrice());
+console.log(mobile.discountPrice()); 
 
