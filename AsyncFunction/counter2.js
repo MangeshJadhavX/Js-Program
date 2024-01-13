@@ -1,19 +1,16 @@
 
+function counter(second){
+  console .log(second);  
+if(second > 0){
+  setTimeout(function(){
+   counter(second - 1) // this is call counter function after 1 sec.
+  },1000);  
+
+}
+
+}
 
 
-//pending.....
+counter(10);
 
 
-    var counter = 0;
-    setTimeout(function(){
-     setInterval(function(){
-        counter =  counter + 1;
-        console.log(counter);
-     },1000)
-    },1000);
-    
-    
-
-
-    counter =  counter + 1;
-    console.log(counter);
