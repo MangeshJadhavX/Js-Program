@@ -1,18 +1,4 @@
 
-function myCounter() {
- 
- 
-    
-}
-
-
-setInterval(myCounter,1000);
-
-
-
-
-
-
 var counter = 0;
 
 setInterval(function(){
