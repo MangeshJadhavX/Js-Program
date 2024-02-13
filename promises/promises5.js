@@ -1,3 +1,5 @@
+//we return a promise to a function using .then function
+
 function sleep(milliseconds) {
 return new Promise(function(resolve){
     setTimeout(function(){
@@ -15,3 +17,4 @@ a.then(function(){
 })
 
 
+//
