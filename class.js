@@ -16,3 +16,4 @@ let cat = new animal("cat",4,"mew mew");
 
 dog.speak();
 
+//there is a new commit
