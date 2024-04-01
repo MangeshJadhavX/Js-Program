@@ -13,11 +13,11 @@ if(startIndex <= i && endIndex > i){
 return newStr;
 }
 
-const result = cutIt(value,0,7);
+ let result = cutIt('ramnarayan',0,7);
 console.log(result);
 ///////////////////////////////////////////////////////
-const value = "mangesh jadhav"
-let ans = value.slice(0,7); // 0 to 6 
+let value = "mangeshjadhav"
+let ans = value.slice(2,5); // 0 to 6 
 console.log(ans); 
 
 

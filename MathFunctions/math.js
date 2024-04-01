@@ -1,7 +1,7 @@
 function mathMethods(value) {
     console.log("Original Value:", value);
   
-    let rounded = Math.round(value);      //it  make a positive value   
+    let rounded = Math.round(value);       //its make not pointable value
     console.log("After round():", rounded);
   
     let ceiling = Math.ceil(value);  
@@ -27,7 +27,7 @@ function mathMethods(value) {
   }
   
   // Example Usage for Math Methods
-  mathMethods(25.11);
+  mathMethods(-25.11);
   mathMethods(9);
   mathMethods(25);
   
