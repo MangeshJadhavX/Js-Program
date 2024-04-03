@@ -27,7 +27,8 @@ function mathMethods(value) {
   }
   
   // Example Usage for Math Methods
-  mathMethods(-25.11);
+  mathMethods(25.11);
   mathMethods(9);
   mathMethods(25);
   
+
