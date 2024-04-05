@@ -11,7 +11,10 @@ console.log(myDate.getMinutes());
 console.log(`the date is ${myDate.getUTCDate()}`);
 
 
+myDate.toLocaleString('default',{
+   weekday : "long",
 
+})
 
 
 

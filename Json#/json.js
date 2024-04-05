@@ -14,15 +14,15 @@ const persons = JSON.parse(users);
 console.log(persons["city"]); 
 
 
-const animal = {  // convert this into string;
+// const animal = {  // convert this into string;
 
-    animalName : "horse",
-    legCount : 4,
-    animalBrad : "German"
-}
+//     animalName : "horse",
+//     legCount : 4,
+//     animalBrad : "German"
+// }
 
-const output = JSON.stringify(animal);
-console.log(output);
-console.log(output["animalBrad"]);
+// const output = JSON.stringify(animal);
+// // console.log(output);
+// // console.log(output["animalBrad"]);
 
 
