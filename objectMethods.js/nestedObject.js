@@ -13,3 +13,5 @@ const users = {
 
 
 console.log(users.purchaseDetails.userAddress.Address);  //access the value using . (dot);
+
+console.log(users['purchaseDetails']['price']);  //you can access also square bracket

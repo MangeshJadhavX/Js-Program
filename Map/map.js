@@ -1,5 +1,5 @@
 
-
+//map object
 const map = new Map();
 map.set('IN',"India");
 map.set('USA',"United State of America");
@@ -17,6 +17,6 @@ for (const [key , values] of map) {  //!put the square bracket and put next valu
 
 // //todo (for in) : can we apply the loop here
 // //!the map is not iterable thats why they give us no value
-// for (const key in map) {
-//    console.log(key);
+// for (const [key ,value] in map) {
+//    console.log(`${key} :- ${value}`);
 // }

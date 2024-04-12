@@ -3,7 +3,7 @@
 const arr = [1,2,4,5,6];
 
 arr.forEach( (item) => {
-    // console.log(item);
+    console.log(item);
 });
 
 
@@ -34,6 +34,7 @@ user.forEach((values)=>{
 
 //todo : for string
 let username = "mangesh";
+
 
 //! we can use For of use 
 // for (const string of username) {

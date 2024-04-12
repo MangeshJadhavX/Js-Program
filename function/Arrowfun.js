@@ -1,7 +1,6 @@
 
 //?when you access the this keyword         //In JavaScript, the this keyword refers to an object.
 
-const { object } = require("zod");
 
 // function learn(){
 //   console.log(this);  //!this is gives us lost of key and values;
@@ -30,6 +29,13 @@ console.log(addNum(2,3));
 const objreturn = () => ({username : "sahil"});  //!must write parenthesis() here
 console.log(objreturn());
 
+//!explicit return
+
+const expliReturn = (message)=>{
+ return message;
+}
+
+console.log(expliReturn("he whats up"));
 
 
 

@@ -8,6 +8,7 @@
     console.log(`DB Connected`);
 })();
 
+//?
 ((name) =>{  //passing the parameter also;
     console.log(`The name of the person is ${name}`)
 })('Rajmolli');

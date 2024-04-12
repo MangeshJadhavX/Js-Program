@@ -6,7 +6,7 @@ for (let i = 0; i < arr.length; i++) {
 
 
 
-//!this is for of
+// //!this is for of
 const arr2 = ['manish','rahul','damini','rambha'];
 
 for (const Names of arr2) {
@@ -20,7 +20,7 @@ for (const greet of greetings) {
 
 
 
-//!we can't use this loop for object we can use another
+// //!we can't use this loop for object we can use another
 const user = { name: "mangesh", Address: "Lives in Jamner", Id: 8502 };
 
 for (const [key, value] of Object.entries(user)) {

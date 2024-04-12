@@ -13,13 +13,13 @@ const allUser = [{
 
 console.log(allUser[1].firstName);
 
-// //!we can use here forEACH LOOP
+
 // for(let i = 0;i < allUser.length;i++){
 //     if(allUser[i]["gender"] == "male"){
 //         console.log(allUser[i]["firstName"]);
 //     }
 // }
-
+// //!we can use here forEACH LOOP
 allUser.forEach((values)=>{
     if(values.gender == 'female'){
         console.log(values.firstName);

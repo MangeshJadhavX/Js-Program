@@ -7,10 +7,9 @@ const obj3 = {7 : 'g' , 8 : 'h' , 9 : 'i'};
 
 
 const newObj = Object.assign({},obj1,obj2,obj3);
-
+console.log(newObj);
 //!spread method;
 const anotherNewObject = {...obj1,...obj2};
 console.log(anotherNewObject);
 
 
-console.log(newObj);
