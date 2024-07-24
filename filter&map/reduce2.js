@@ -14,7 +14,6 @@ let Courses = [{
 ]
 
 let CoursePrice = Courses.reduce((acc,item)=>{
-  console.log(acc);
   console.log(item.price);
     return acc + item.price;
 },0)

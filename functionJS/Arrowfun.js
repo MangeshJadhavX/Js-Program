@@ -35,7 +35,7 @@ const expliReturn = (message)=>{
  return message;
 }
 
-console.log(expliReturn("he whats up"));
+console.log(expliReturn("hey whats up"));
 
 
 

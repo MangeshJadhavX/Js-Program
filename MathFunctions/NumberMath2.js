@@ -18,7 +18,7 @@ console.log(Math);
 
 // console.log(Math.ceil(4.2));  //jar kadhi 4 chya varti asla tar 5 ch deil.
 
-// console.log(Math.floor(4.9)); // 
+// console.log(Math.floor(4.9)); // 4 ch deil
 
 // console.log(Math.max(4,3,5,6,7,9)); 
 
